@@ -1,0 +1,25 @@
+div.one{
+    padding: 5px;
+    border: 2px solid red;
+}
+img{
+    float: right;
+}
+div.two{
+    padding: 5px;
+    border: 2px solid red;
+    overflow: auto;
+}
+#first{
+    color: blueviolet;
+    font-weight: bold;
+}
+div.three{
+    padding: 5px;
+    border: 2px solid blue;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}

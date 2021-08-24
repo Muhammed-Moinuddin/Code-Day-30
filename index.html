@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 30</title>
+</head>
+<body>
+   <h2>Without Clearfix</h2>
+   <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+   <div class="one">
+       <img src="pineapple.jpg" alt="A pineapple picture">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+   </div> 
+   <h2 style="clear:right">With Clearfix (overflow:auto)</h2>
+   <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+   <div class="two">
+       <img src="pineapple.jpg" alt="A pineapple picture">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+   </div> 
+   <br> <br>
+   <h1 id="first">Modern Clearfix Hack</h1>
+   <br>
+   <h2>Without Clearfix</h2>
+   <p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+   <div class="three">
+       <img src="pineapple.jpg" alt="A pineapple picture">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+   </div> 
+   <h2 style="clear:right">With Modern Clearfix</h2>
+   <p>Add the clearfix hack to the containing element, to fix this problem:</p>
+   <div class="clearfix" style="border: 2px solid blue; padding: 5px;">
+       <img src="pineapple.jpg" alt="A pineapple picture">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+   </div>
+</body>
+</html>
